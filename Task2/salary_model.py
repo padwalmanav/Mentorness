@@ -23,8 +23,6 @@ unit_categories = list(mappings["unit"].keys())
 designation = st.selectbox("Designation", designation_categories)
 age = st.number_input("Age(18-65)", min_value=18, max_value=65, step=1)
 unit = st.selectbox("Unit", unit_categories)
-leaves_used = st.number_input("Leaves Used(0-30)", min_value=0.0, max_value=30.0, step=1.0)
-leaves_remaining = st.number_input("Leaves Remaining(0-30)", min_value=0.0, max_value=30.0, step=1.0)
 ratings = st.slider("Ratings", min_value=1.0, max_value=5.0, step=0.5)
 past_exp = st.number_input("Past Experience (in years)(0-40)", min_value=0, max_value=40, step=1)
 
@@ -37,8 +35,6 @@ input_data = pd.DataFrame({
     "DESIGNATION": [encoded_designation],
     "AGE": [age],
     "UNIT": [encoded_unit],
-    "LEAVES USED": [leaves_used],
-    "LEAVES REMAINING": [leaves_remaining],
     "RATINGS": [ratings],
     "PAST EXP": [past_exp]
 })
@@ -48,6 +44,6 @@ if st.button("Predict Salary"):
     try:
         # Make prediction
         prediction = model.predict(input_data)[0]
-        st.success(f"The predicted salary is: ${prediction:.2f}")
+        st.success(f"The predicted salary is: Rs.{prediction:.2f}")
     except Exception as e:
         st.error(f"An error occurred: {e}")
