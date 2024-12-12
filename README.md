@@ -10,11 +10,15 @@ This project focuses on predicting the salaries of data professionals. It involv
 
 ## To run streamlit application:
 
-1)Installing dependencies and Libraries
-```pip install -r requirements.txt```
+1. **Installing dependencies and Libraries:**
+```
+pip install -r requirements.txt
+```
 
-2)Running streamlit code
-```streamlit run file.py```
+2. **Running streamlit code:**
+```
+streamlit run file.py
+```
 
 ### Task Performed
 > Linear Regression
