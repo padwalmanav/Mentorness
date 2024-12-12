@@ -10,12 +10,18 @@ This project focuses on predicting the salaries of data professionals. It involv
 
 ## To run streamlit application:
 
-1. **Installing dependencies and Libraries:**
+1. **Clone the repository**
+```
+git clone 
+cd Mentorness
+```
+
+3. **Installing dependencies and Libraries:**
 ```
 pip install -r requirements.txt
 ```
 
-2. **Running streamlit code:**
+3. **Running streamlit code:**
 ```
 streamlit run salary_model.py
 ```
