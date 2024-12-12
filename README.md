@@ -12,7 +12,7 @@ This project focuses on predicting the salaries of data professionals. It involv
 
 1. **Clone the repository**
 ```
-git clone 
+git clone https://github.com/padwalmanav/Mentorness.git
 cd Mentorness
 ```
 
