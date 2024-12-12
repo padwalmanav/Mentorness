@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 2. **Running streamlit code:**
 ```
-streamlit run file.py
+streamlit run salary_model.py
 ```
 
 ### Task Performed
