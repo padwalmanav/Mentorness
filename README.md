@@ -6,7 +6,11 @@ In this task, I created an original, 30-second to 1-minute video explaining regu
 # Task 2: Salary Prediction
 
 ### Project Overview
-This project focuses on predicting the salaries of data professionals. It involves regression tasks and provides hands-on experience in data analysis, feature engineering, and machine learning model development. The goal is to predict salaries based on a rich dataset.
+This project focuses on predicting the salaries of data professionals. It involves regression tasks and provides hands-on experience in data analysis, feature engineering, and machine learning model development. The goal is to predict salaries based on a rich dataset. Created a web application using Streamlit for predicting user inputs.
+
+To run streamlit application:
+1)'pip install -r requirements.txt'
+2)'streamlit run file.py'
 
 ### Task Performed
 > Linear Regression
